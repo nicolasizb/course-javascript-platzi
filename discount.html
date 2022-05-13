@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount&Percentages</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Percentages and discount</h1>
+            <p>This is the second workshop of the JavaScript practical course</p>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <section>
+                <h2>Calcule the price to pay of your products with discount</h2>  
+                
+                <form action="">
+                    <label for="InputPrice">Write the price of your product</label>
+                    <input type="number" id="InputPrice" />
+
+                    <label for="InputDiscount">Write the discount of your product</label>
+                    <input type="number" id="InputDiscount" />
+
+                    <!-- Escribimos type=button para que la page no se recarge -->
+                    <!-- Escribimos onclick="onClickButtonPriceDiscound" para poder añadir funciones de JS al botón -->
+                    <button type="button" onclick="onClickButtonPriceDiscound()">Calcule the price with discount</button>
+
+                    <p id="ResultP"></p>
+                </form>
+            </section>
+        </article>
+    </main>
+    <script src="./discount.js"></script>
+</body>
+</html>

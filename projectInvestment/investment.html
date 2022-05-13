@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./investment.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>INVESTEMENT</title>
+</head>
+<body>
+    <header class="header">
+        <figure class="container-header__logo">
+            <img src="https://www.inversionesenelmundo.com/wp-content/uploads/2019/12/cropped-logo_nuevo1.png" alt="Logo">
+        </figure>
+        <nav class="header__list">
+            <ul>
+                <li><a href="">Project 1</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="main__card">
+            <section class="card__title">
+                <h1>Know your investment</h1>
+            </section>
+            <section class="card__interaction">
+                <form action="" class="interaction__input-label-button">
+                    <label for="InputAmount">What's the investment amount?</label>
+                    <input type="number" id="InputAmount" /> 
+                    <label for="InputTime">What's the time lapse in years</label>
+                    <input type="number" id="InputTime" /> 
+                    
+                    <button type="button" onclick="calculeDataOnClick()">Calculate</button>
+                </form>
+
+                <form action="" class="interaction__input-label-button">
+                    <label for="InputPercentageInterests">What's the anual interest? (Max 10%)</label>
+                    <input type="number" id="InputPercentageInterests" />
+                    <label for="InputSimple">What kind of interest?</label>
+                    <input type="text" id="InputSimple" placeholder="Simple" />
+                    <button>Reset</button>
+                </form>
+            </section>
+            <section class="card__text-end">
+                <p id="p1"></p>
+                <p id="p2"></p>
+                <p id="p3"></p>
+                <p id="p4"></p>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <div class="container-footer">
+            <p><b>Designed by @nicolasizquierdob with 💚</b></p>
+        </div>
+    </footer>
+    <script src="./investment.js"></script>
+</body>
+</html>
+<form action=""></form>
